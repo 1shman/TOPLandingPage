@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px; 
+}
+
+ul{
+    display: flex;
+    gap: 15px; 
+    list-style-type: none;
+}
+
+.topThird{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
