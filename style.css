@@ -48,3 +48,18 @@ Button{
     color: white;
     border-radius: 15px; ;
 }
+
+.secondThird{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdThird{
+    background-color: #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+}
