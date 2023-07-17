@@ -1,6 +1,13 @@
 body{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+}
+
+body > *{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .header{
@@ -53,10 +60,26 @@ Button{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1; 
 }
 
 .thirdThird{
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px;
+    flex: 1; 
+}
+
+.signUpButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 90px; 
+    flex: 1; 
 }
 
 .footer{
