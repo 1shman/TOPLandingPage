@@ -4,12 +4,6 @@ body{
     min-height: 100vh;
 }
 
-body > *{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
 .header{
     background-color: #1F2937;
     color: white;
