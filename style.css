@@ -67,7 +67,7 @@ Button{
     flex: 1; 
 }
 
-.signUpButton{
+.contact{
     display: flex;
     justify-content: center;
     align-items: center;
