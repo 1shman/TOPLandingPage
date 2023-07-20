@@ -57,7 +57,12 @@ Button{
     width: 100px; 
     background-color: #3882F6;
     color: white;
-    border-radius: 15px; ;
+    font-family: 'Roboto', arial;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
 }
 
 .secondThird{
@@ -74,6 +79,11 @@ Button{
     width: 500px;
     justify-content: center;
     align-items: center;
+}
+
+image{
+    display: flex;
+    margin: 30px;
 }
 
 .thirdThird{
@@ -99,11 +109,28 @@ h4{
 
 .contact{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
     padding: 90px; 
     flex: 1; 
+    color:#E5E7EB;
+
+}
+
+.contact
+Button{
+    width: 100px; 
+    background-color: #3882F6;
+    color: white;
+    font-family: 'Roboto', arial;
+    border: #E5E7EB;
+    border: solid;
+    padding: 10px; 
+    font-weight: bold;
+    border-radius: 8px;
+    display: block;
+    width: 150px; 
 }
 
 .footer{
