@@ -25,9 +25,9 @@ ul{
     background-color: #1F2937;
     color: white;
     display: flex;
-    padding: 40px; 
-    padding-right: 90px;
-    padding-left: 90px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px; 
     flex: 1; 
 }
 
@@ -36,7 +36,6 @@ ul{
     display: flex;
     flex-direction: column;
     width: 400px; 
-    margin-right: 30px;
     color: #E5E7EB;
 }
 
@@ -48,8 +47,8 @@ a{
 
 .topThird
 .left
-h3{
-    font-weight: 800;
+strong{
+    font-size: 48px;
 }
 
 .topThird
