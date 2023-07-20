@@ -109,13 +109,35 @@ h4{
 
 .contact{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #3882F6;
     padding: 90px; 
     flex: 1; 
     color:#E5E7EB;
 
+}
+
+.item{
+    background-color: #3882F6;
+    width: 900px; 
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.item
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.item
+strong{
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .contact
